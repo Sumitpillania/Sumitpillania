@@ -1,0 +1,117 @@
+
+body{
+   
+    background-image:url(../background2.jpg) ;
+   background-repeat: no-repeat;
+    background-size: cover;
+  min-width: 1024;
+  max-width: none;
+
+   color: white;
+    margin: 0px;
+    padding: 0px;
+
+  
+
+ 
+    
+}
+
+#vanta{
+    z-index: 0;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+header{
+    
+     display:inline;
+     width: 100px;
+     position: relative;
+     text-align: center;
+     justify-content: center;
+     font-style:oblique;
+}
+header>img{
+    display: block;
+ 
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 40%;
+    box-shadow: white 0px 2px 8px 0px;
+  
+}
+header>h3{
+    background-color:white;
+    margin:  30px auto;
+    width: 134px;
+    border-radius: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  /* backdrop-filter: blur(10px) saturate(100%) contrast(180%) ;
+  -webkit-backdrop-filter: blur(10px) saturate(100%) contrast(180%) ; */
+  /* border: 3px solid black;  */
+  box-shadow: red 0px 2px 8px 0px ;
+}
+ul{
+    display: block;
+    text-decoration: none;
+  
+    justify-content: center;
+    list-style: none;
+    
+}
+ul>li{
+    display:block;
+    width: 20em;
+   height: 2em;
+    margin:50px auto;
+    padding: 17px 0px 10px 0px ;
+  
+    background-color:rgba(246, 236, 236, 0.975);
+ border-radius: 100px;
+    /* opacity: 0.9; */
+}
+ul>li>h1{
+    display:inline-block; 
+  margin: -13px 0px 0px -6px ;
+  padding: 10px;
+text-decoration: none;
+    width: 10em;
+   text-align: center;
+   justify-content: center;
+    
+
+}
+ul>li>h1>a{ 
+    display: inline;
+   
+   color: black;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+ 
+}
+ul>li>h1>img{
+    display: inline;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+ul>li>h1>a:hover{
+    color: blue;
+}
+
+
+
+
