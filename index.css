@@ -54,7 +54,8 @@ header>img{
 }
 header>h3{
     background-color:white;
-    margin:  30px -40px;
+    margin:  30px auto;
+   margin-left:-40px;
    
     width: 134px;
     border-radius: 100px;
