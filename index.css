@@ -45,7 +45,6 @@ header>img{
     position: relative;
     top: 20px;
     margin: auto;
-  
     text-align: center;
     justify-content: center;
     border-radius: 40%;
@@ -55,8 +54,6 @@ header>img{
 header>h3{
     background-color:white;
     margin:  30px auto;
-  
-   
     width: 134px;
     border-radius: 100px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
